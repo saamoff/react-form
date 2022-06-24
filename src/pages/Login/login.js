@@ -4,7 +4,7 @@ import photo from '../../assets/data_1.png';
 import {Title, Wrapper, MainWrap, FlexWrap, MainImg} from './index';
 
 
-const Login = ({width, height}) => {
+const Login = ({width}) => {
   return (
     <MainWrap>
       <Wrapper width="30%">
