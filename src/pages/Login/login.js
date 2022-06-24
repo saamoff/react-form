@@ -12,7 +12,7 @@ const Login = ({width}) => {
           <MainImg>
             <img src={photo} alt="Logo"/>
           </MainImg>
-          <Title>Intern Sign Up</Title>
+          <Title fontSize="36px">Intern Sign Up</Title>
           <form>
             <Input margin="2%"id="Name" label="Full Name*" type="text" placeholder="Name" required/>
             <FlexWrap>

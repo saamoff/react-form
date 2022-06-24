@@ -10,7 +10,7 @@ const Success = (width) => {
         <MainImg>
           <img src={photo} alt="Logo"/>
         </MainImg>
-        <Title>Success!</Title>
+        <Title fontSize="40px">Success!</Title>
         <Button/>
       </Wrapper>
     </MainWrap>

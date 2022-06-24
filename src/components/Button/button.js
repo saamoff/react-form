@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { MainButton, ButtonWrap } from './button.styled';
 
 const Button = () => {
   return (
-    <div>button</div>
+    <ButtonWrap>
+      <MainButton>Go Back!</MainButton>
+    </ButtonWrap>
   )
 }
 
