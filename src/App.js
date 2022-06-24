@@ -1,10 +1,12 @@
 import React from "react";
 import Login from "./pages/Login/login.jsx";
+// import Success from "./pages/Success/success.jsx";
 
 const App = () => {
   return (
     <div>
-      <Login/>  
+      <Login/>
+      {/* <Success/> */}
     </div>
   )
 };
