@@ -27,4 +27,12 @@ const FlexWrap = styled.div`
     justify-content: space-between;
 `
 
-export {Title, Wrapper, MainWrap, FlexWrap}
+const MainImg = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+`
+
+export {Title, Wrapper, MainWrap, FlexWrap, MainImg}

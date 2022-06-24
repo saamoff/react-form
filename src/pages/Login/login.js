@@ -1,7 +1,7 @@
 import React from 'react'
 import Input from '../../components/Input/input.js'
 import photo from '../../assets/data_1.png';
-import {Title, Wrapper, MainWrap, FlexWrap} from './index';
+import {Title, Wrapper, MainWrap, FlexWrap, MainImg} from './index';
 
 
 const Login = ({width, height}) => {
@@ -9,7 +9,9 @@ const Login = ({width, height}) => {
     <MainWrap>
       <Wrapper width="30%">
         <div>
-          <img src={photo} alt="Logo"/>
+          <MainImg>
+            <img src={photo} alt="Logo"/>
+          </MainImg>
           <Title>Intern Sign Up</Title>
           <form>
             <Input margin="2%"id="Name" label="Full Name*" type="text" placeholder="Name"/>

@@ -7,9 +7,9 @@ const InputStyle = styled.input`
     border: 2px solid #AAAAAA;
     border-radius: 4px;
     height: 36px;
-    padding: 4px;
+    padding-left: 4px;
     width: ${(props) => props.width};
-    margin: 0 0 52px 0;
+    margin: 0 0 4% 0;
 `
 
 const LabelStyle = styled.label`
