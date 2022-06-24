@@ -14,14 +14,15 @@ const Login = ({width, height}) => {
           </MainImg>
           <Title>Intern Sign Up</Title>
           <form>
-            <Input margin="2%"id="Name" label="Full Name*" type="text" placeholder="Name"/>
+            <Input margin="2%"id="Name" label="Full Name*" type="text" placeholder="Name" required/>
             <FlexWrap>
-              <Input width="330px"id="Email" label="Email*" type="email" placeholder="foo@bar"/>
-              <Input maxLength={11} id="Phone" label="Phone" type="text" placeholder="(83) 00000-0000" required="false"/>
+              <Input width="330px"id="Email" label="Email*" type="email" placeholder="foo@bar" required/>
+              <Input maxLength={11} id="Phone" label="Phone" type="text" placeholder="(83) 00000-0000"/>
             </FlexWrap>
             <FlexWrap>
-              <Input width="330px" id="Password" label="Password*" type="password"/>
+              <Input width="330px" id="Password" label="Password*" type="password"required/>
             </FlexWrap>
+            <Input id="Submit" type="submit"/>
           </form>
         </div>
     </Wrapper>
