@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {InputStyle, LabelStyle, InputWrap} from './index';
 
 const Input = ({ label, id, ...props }) => {
   return (
-    <div>
-      <label htmlFor={id}>{label}</label>
+    <InputWrap>
+      <LabelStyle htmlFor={id}>{label}</LabelStyle>
       <br></br>
-      <input id={id} type="text" {...props}></input>
-    </div>
+      <InputStyle width='100%' id={id} type="text" {...props}></InputStyle>
+    </InputWrap>
   )
 }
 

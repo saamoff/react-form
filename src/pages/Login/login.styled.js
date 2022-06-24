@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Title = styled.h1`
   font-family: 'Inter', sans-serif;
-  font-size: 1.5rem;
+  font-size: 36px;
   text-align: center;
 `
 
@@ -16,10 +16,15 @@ const MainWrap = styled.section`
 
 const Wrapper = styled.section`
   width: ${(props) => props.width};
-  height: 50vh;
+  height: 80vh;
   padding: 2%;
   background-color: white;
   border-radius: 10px;
 `
 
-export {Title, Wrapper, MainWrap}
+const FlexWrap = styled.div`
+    display: flex;
+    justify-content: space-between;
+`
+
+export {Title, Wrapper, MainWrap, FlexWrap}

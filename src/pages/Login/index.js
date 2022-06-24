@@ -1,3 +1,3 @@
-import {Title, Wrapper, MainWrap} from './login.styled';
+import {Title, Wrapper, MainWrap, FlexWrap} from './login.styled';
 
-export {Title, Wrapper, MainWrap}
+export {Title, Wrapper, MainWrap, FlexWrap}
