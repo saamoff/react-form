@@ -1,5 +1,5 @@
 import React from "react";
-import Login from "./pages/Login/login.jsx";
+import Login from "./pages/Login/login.js";
 // import Success from "./pages/Success/success.jsx";
 
 const App = () => {
