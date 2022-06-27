@@ -9,7 +9,13 @@
 }
 
 .input-submit{
-    
+    border: 0;
+    height: 40px;
+    width: 81px;
+    background: #0DBDBD;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
 }
 
 .label-input{

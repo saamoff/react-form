@@ -24,7 +24,7 @@ const Login = ({width}) => {
               <Input class="input-forms" id="Password" label="Password*" type="password" required/>
               <TableDatePicker required></TableDatePicker>
             </FlexWrap>
-            <Input id="Submit" type="submit"/>
+            <Input class="input-submit" value="Register" id="Submit" type="submit"/>
           </form>
         </div>
     </Wrapper>
