@@ -1,0 +1,34 @@
+.main-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-wrapper{
+    width: 30%;
+    height: 80vh;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.flex-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.main-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
