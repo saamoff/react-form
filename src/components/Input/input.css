@@ -1,26 +1,14 @@
-.input-forms{
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+.div-input{
+    display: flex;
+    flex-direction: column;
+    color: #767676;
+    width: 100%;
+    font-size: 14px;
+}
+
+.div-input input{
     border: 2px solid #AAAAAA;
     border-radius: 4px;
-    height: 36px;
-    padding-left: 4px;
-    width: 100%;
-}
-
-.input-submit{
-    border: 0;
-    height: 40px;
-    width: 81px;
-    background: #0DBDBD;
-    border-radius: 10px;
-    color: white;
-    cursor: pointer;
-}
-
-.label-input{
-    font-family: 'Nunito', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    color: #767676;    
+    padding: 5px;
+    font-size: 16px;
 }
