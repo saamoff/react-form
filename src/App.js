@@ -5,8 +5,8 @@ import Success from "./pages/Success/success.js";
 const App = () => {
   return (
     <div>
-      {/* <Login/> */}
-      <Success/>
+      <Login/>
+      {/* <Success/> */}
     </div>
   )
 };

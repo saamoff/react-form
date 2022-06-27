@@ -1,6 +1,7 @@
 import React from 'react'
 import Input from '../../components/Input/input.js'
 import photo from '../../assets/data_1.png';
+import TableDatePicker from '../../components/Select/select.js';
 import {Title, Wrapper, MainWrap, FlexWrap, MainImg} from './index';
 
 
@@ -21,6 +22,7 @@ const Login = ({width}) => {
             </FlexWrap>
             <FlexWrap>
               <Input width="330px" id="Password" label="Password*" type="password"required/>
+              <TableDatePicker></TableDatePicker>
             </FlexWrap>
             <Input id="Submit" type="submit"/>
           </form>
