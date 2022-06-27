@@ -15,14 +15,14 @@ const Login = ({width}) => {
           </MainImg>
           <Title fontSize="36px">Intern Sign Up</Title>
           <form>
-            <Input margin="2%"id="Name" label="Full Name*" type="text" placeholder="Name" required/>
+            <Input class="input-forms" id="Name" label="Full Name*" type="text" placeholder="Name" required/>
             <FlexWrap>
-              <Input width="330px"id="Email" label="Email*" type="email" placeholder="foo@bar" required/>
-              <Input maxLength={11} id="Phone" label="Phone" type="text" placeholder="(83) 00000-0000"/>
+              <Input class="input-forms" id="Email" label="Email*" type="email" placeholder="foo@bar" required/>
+              <Input class="input-forms" maxLength={11} id="Phone" label="Phone" type="text" placeholder="(83) 00000-0000"/>
             </FlexWrap>
             <FlexWrap>
-              <Input width="330px" id="Password" label="Password*" type="password"required/>
-              <TableDatePicker></TableDatePicker>
+              <Input class="input-forms" id="Password" label="Password*" type="password" required/>
+              <TableDatePicker required></TableDatePicker>
             </FlexWrap>
             <Input id="Submit" type="submit"/>
           </form>

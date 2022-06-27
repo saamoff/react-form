@@ -1,15 +1,20 @@
-.date-picker input{
+.input-forms{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     border: 2px solid #AAAAAA;
     border-radius: 4px;
     height: 36px;
     padding-left: 4px;
-    color: #767676;
+    width: 100%;
 }
 
-.date-label{
+.input-submit{
+    
+}
+
+.label-input{
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
-    color: #767676;
+    line-height: 16px;
+    color: #767676;    
 }
