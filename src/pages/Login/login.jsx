@@ -15,14 +15,14 @@ const Login = () => {
           <h1 className='main-title'>Intern Sign Up</h1>
           <form>
             <span className='flex-wrap'>
-              <Input class="input-forms" nameInput="Name" id="Name" label="Full Name*" type="text" placeholder="Name" required/>
+              <Input nameInput="Name" id="Name" label="Full Name*" type="text" placeholder="Name" required/>
             </span>
             <span className='flex-wrap'>
-              <Input class="input-forms" nameInput="Email" id="Email" label="Email*" type="email" placeholder="foo@bar" required/>
-              <Input class="input-forms" nameInput="Phone" maxLength={11} id="Phone" label="Phone" type="text" placeholder="(83) 00000-0000"/>
+              <Input class="input-email" nameInput="Email" id="Email" label="Email*" type="email" placeholder="foo@bar" required/>
+              <Input class="input-phone" nameInput="Phone" maxLength={11} id="Phone" label="Phone" type="text" placeholder="(83) 00000-0000"/>
             </span>
             <span className='flex-wrap'>
-              <Input class="input-forms" nameInput="Password" id="Password" label="Password*" type="password" required/>
+              <Input class="input-password" nameInput="Password" id="Password" label="Password*" type="password" required/>
               <TableDatePicker></TableDatePicker>
             </span>
           </form>
