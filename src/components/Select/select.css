@@ -1,0 +1,12 @@
+.date-picker input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    height: 36px;
+    width: 87%;
+    padding-left: 4px;
+    color: #767676;
+    margin-top: 21%;
+    margin-left: 13%;
+}
