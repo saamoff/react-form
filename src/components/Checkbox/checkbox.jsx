@@ -1,14 +1,17 @@
 import './checkbox.css';
 
-const Checkbox = (...props) => {
+const Checkbox = ({label, id, ...props}) => {
   return (
-    <div>
-      <span>
+    <div className='container'>
+      <span className='checkboxWrap'>
         <input name={props.name}
-         className="checkBox"
-          type="checkbox"/>
-        <label htmlFor={props.name}>{props.label}</label>
+        id={id}
+        className="checkBox"
+        type="checkbox"/>
+        <span className='checkboxNew'></span>
+        <label className="labelCheckbox" htmlFor={id}>{label}</label>
       </span>
+      { !props.validation && <p className='error'>{props.errorMsg}</p>}
     </div>
   )
 }

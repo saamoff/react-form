@@ -18,7 +18,7 @@ function TableDatePicker(...props) {
       onChange={date => setDate(date)} 
       minDate={new Date("1945-01-01")} 
       maxDate={moment().toDate()}/>
-      { !props.valid && <p className='error'>Age Invalid.</p>}
+      { !props.validation && <p className='error'>Age Invalid.</p>}
     </div>
     
   )

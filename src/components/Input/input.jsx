@@ -11,7 +11,7 @@ const Input = ({ label, id, ...props }) => {
       {...props}
       onChange={a => {
         (localStorage.setItem(`${props.nameInput}`, a.target.value))}}/>
-       {!props.valid && <p className='error'>{props.nameInput} Invalid.</p>}
+       {!props.validation && <p className='error'>{props.nameInput} Invalid.</p>}
     </div>
   )
 }
