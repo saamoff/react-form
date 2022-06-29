@@ -1,0 +1,31 @@
+.div-button{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 1140px;
+    top: 725px;
+}
+
+.div-button button{
+    font-size: 16px;
+    height: 40px;
+    width: 81px;
+    line-height: 18px;
+    color: white;
+    cursor: pointer;
+    background-color: #0DBDBD;
+    border-radius: 10px;
+    border: 0;
+    transition: 200ms;
+}
+
+.button-test{
+    font-size: 36px;
+    line-height: 18px;
+    width: 81px;
+    height: 40px;
+}
+
+.div-button button:hover{
+    background-color: #91eded
+}

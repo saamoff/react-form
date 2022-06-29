@@ -1,6 +1,6 @@
 import React from 'react';
 import photo from '../../assets/data_1.png';
-import Button from '../../components/Button/button.js'
+import Button from '../../components/Button/button.jsx'
 
 const Success = (width) => {
   return (

@@ -1,5 +1,6 @@
 import Input from '../../components/Input/input.jsx'
 import Checkbox from '../../components/Checkbox/checkbox.jsx';
+import Button from '../../components/Button/button.jsx' 
 import photo from '../../assets/data_1.png';
 import './login.css';
 import TableDatePicker from '../../components/Select/select.jsx';
@@ -14,7 +15,7 @@ const Login = () => {
           </span>
           <h1 className='main-title'>Intern Sign Up</h1>
           <form>
-            <div>
+            <div className='form-upper'>
               <span className='flex-wrap'>
                 <Input nameInput="Name" id="Name" label="Full Name*" type="text" placeholder="Name" required/>
               </span>
@@ -27,12 +28,13 @@ const Login = () => {
                 <TableDatePicker></TableDatePicker>
               </span>
             </div>
-            <div>
+            <div className='form-lower'>
               <span>
                 <Checkbox name='Check'
                 label="I accept the terms and privacy"
                 errorMsg='You must accept the terms.'/>
               </span>
+              <Button value='Register'/>
             </div>
           </form>
         </div>
