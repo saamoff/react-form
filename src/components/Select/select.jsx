@@ -10,15 +10,16 @@ function TableDatePicker(...props) {
 
   return (
     <div className="date-div">
-      <label>Birthday*</label>
+      <label>Birthdate*</label>
       <DatePicker wrapperClassName="date-picker"
+      name={props.name}
       placeholderText='yyyy/mm/dd'
       dateFormat="yyyy/MM/dd"
       selected={date}
+      required='true'
       onChange={date => setDate(date)} 
       minDate={new Date("1945-01-01")} 
       maxDate={moment().toDate()}/>
-      { !props.validation && <p className='error'>Age Invalid.</p>}
     </div>
     
   )
