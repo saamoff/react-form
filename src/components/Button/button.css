@@ -1,9 +1,5 @@
 .div-button{
     display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 1140px;
-    top: 670px;
 }
 
 .div-button button{
@@ -28,4 +24,16 @@
 
 .div-button button:hover{
     background-color: #91eded
+}
+
+@media(max-width: 1750px){
+    .div-button{
+        margin-top: 5%;
+    }
+
+    .div-button button{
+        width: 100%;
+        height: 56px;
+        font-size: 18px;
+    }
 }

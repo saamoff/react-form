@@ -15,17 +15,78 @@
 
 .input-phone{
     width: 68%;
-    margin-left: 25%;
 }
 
 .input-email{
-    width: 330px;
+    width: 300px;
 }
 
 .input-password{
-    width: 330px;
+    width: 300px;
 }
 
 .error{
     color: red;
+}
+
+@media(max-width: 1750px){
+    .input-email{
+        width: 470px;
+    }
+
+    .input-password{
+        width: 470px;
+    }
+
+    .input-phone{
+        transition: 200ms;
+        width: 14%;
+        position: absolute;
+        bottom: 32%;
+        left: 35%;
+    }
+}
+
+@media(max-width: 1450px){
+    .input-email{
+        width: 98%;
+    }
+
+    .input-password{
+        width: 98%;
+    }
+
+
+    .input-name{
+        width: 98%;
+    }
+
+    .input-phone{
+        width: 45%;
+        left: 2%;
+    }
+}
+
+@media(max-width: 1000px){
+    .input-phone{
+        bottom: 25%;
+    }
+}
+
+@media(max-width: 850px){
+    .input-phone{
+        bottom: 30%;
+    }
+}
+
+@media(max-width: 650px){
+    .input-phone{
+        bottom: 20%;
+    }
+}
+
+@media(max-width: 375px){
+    .input-phone{
+        bottom: 25%;
+    }
 }

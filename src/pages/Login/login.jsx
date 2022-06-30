@@ -86,7 +86,7 @@ function SignUp(){
           <form onSubmit={a => validate(a)}>
             <div className='form-upper'>
               <span className='flex-wrap'>
-                <Input nameInput="Name" id="Name" label="Full Name*" type="text" placeholder="Name" required validation={nameVal}/>
+                <Input class="input-name" nameInput="Name" id="Name" label="Full Name*" type="text" placeholder="Name" required validation={nameVal}/>
               </span>
               <span className='flex-wrap'>
                 <Input class="input-email" nameInput="Email" id="Email" label="Email*" type="email" placeholder="foo@bar" required validation={emailVal}/>

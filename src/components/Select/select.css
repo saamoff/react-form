@@ -11,11 +11,51 @@
     display: flex;
     flex-direction: column;
     color: #767676;
-    width: 100%;
+    width: 60%;
     font-size: 14px;
-    margin-left: 10%;
 }
 
 .error{
     color: red;
+}
+
+@media(max-width: 1750px){
+    .date-div{
+        position: absolute;
+        width: 14%;
+        right: 34.2%;
+        bottom: 31.5%;
+        transition: 200ms;
+    }
+}
+
+@media(max-width: 1450px){
+    .date-div{
+        width: 50%;
+        right: -1%;
+    }
+}
+
+@media(max-width: 1000px){
+    .date-div{
+        bottom: 24.7%;
+    }
+}
+
+@media(max-width: 850px){
+    .date-div{
+        bottom: 29.8%;
+    }
+}
+
+@media(max-width: 650px){
+    .date-div{
+        bottom: 19.7%;
+    }
+}
+
+@media(max-width: 375px){
+    .date-div{
+        bottom: 25%;
+    }
 }

@@ -10,7 +10,7 @@ const Success = (width) => {
           <img src={photo} alt="Logo"/>
         </span>
         <h1>Success!</h1>
-        <Button/>
+        <Button value="Go Back!"/>
       </div>
     </section>
   )
