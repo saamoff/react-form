@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Login from './pages/Login/login.jsx'
-import Success from './pages/Success/success.js'
+import Success from './pages/Success/success.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

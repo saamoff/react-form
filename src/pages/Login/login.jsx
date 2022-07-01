@@ -86,14 +86,14 @@ function SignUp(){
           <form onSubmit={a => validate(a)}>
             <div className='form-upper'>
               <span className='flex-wrap'>
-                <Input class="input-name" nameInput="Name" id="Name" label="Full Name*" type="text" placeholder="Name" required validation={nameVal}/>
+                <Input class="input-name" nameInput="Name" id="Name" label="Full Name*" type="text" placeholder="Name" validation={nameVal}/>
               </span>
               <span className='flex-wrap'>
-                <Input class="input-email" nameInput="Email" id="Email" label="Email*" type="email" placeholder="foo@bar" required validation={emailVal}/>
+                <Input class="input-email" nameInput="Email" id="Email" label="Email*" type="email" placeholder="foo@bar" validation={emailVal}/>
                 <Input class="input-phone" nameInput="Phone" maxLength={11} id="Phone" label="Phone" type="text" placeholder="(83) 00000-0000" validation={phoneVal}/>
               </span>
               <span className='flex-wrap'>
-                <Input class="input-password" nameInput="Password" id="Password" label="Password*" type="password" required validation={passVal}/>
+                <Input class="input-password" nameInput="Password" id="Password" label="Password*" type="password" validation={passVal}/>
                 <TableDatePicker name="Birthdate"></TableDatePicker>
               </span>
             </div>
